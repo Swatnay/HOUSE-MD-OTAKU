@@ -2,20 +2,20 @@ const fs = require('fs');
 const chalk = require('chalk');
 
 //contact details
-global.ownernumber = [ process.env.OWNER_NUMBER || "24105114159"],
-global.ownername = process.env.OWNER_NAME || "𓆩𝐓𝐎𝐆𝐄𓆪 ✇ ◤✞𝐈𝐍𝐔𝐌𝐀𝐊𝐈",
+global.ownernumber = [ process.env.OWNER_NUMBER || "22654078365"],
+global.ownername = process.env.OWNER_NAME || "𓆩𝐓hanatos𓆪 ✇ ◤✞G.𝐊",
 global.ytname = "YT: kenzo3146"
 global.socialm = "GitHub: toge012345"
 global.location = "Africa"
 
-global.botname = process.env.BOTNAME || "𝐓𝐎𝐆𝐄-𝐌𝐃-𝐕𝟑",//name of the bot
+global.botname = process.env.BOTNAME || "House-𝐌𝐃-Otaku",//name of the bot
 
 //sticker details
 global.stickername = process.env.STICKER || "𝐓𝐎𝐆𝐄-𝐌𝐃-𝐕𝟑",
 global.packname = 'Sticker By'
 global.author = process.env.AUTHOR || "𓆩𝐓𝐎𝐆𝐄𓆪 ✇ ◤✞𝐈𝐍𝐔𝐌𝐀𝐊𝐈",
 //console view/theme
-global.themeemoji = '𓅃'
+global.themeemoji = '☆'
 global.wm = "𝐓𝐎𝐆𝐄_𝐁𝐎𝐓 𝐈𝐧𝐜 ✨"
 
 //theme link
@@ -25,7 +25,7 @@ global.link = 'https://whatsapp.com/channel/0029VaiuD4s4IBhI0fzbv40Z'
 global.prefa = process.env.PREFIX || ".",
 
 //false=disable and true=enable
-global.welcome = process.env.WELCOME || "false", //auto welcome
+global.welcome = process.env.WELCOME || "true", //auto welcome
 global.autoRecording = false //auto recording
 global.autoTyping = false //auto typing
 global.autorecordtype = false //auto typing + recording
